@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    I want to log successfuly",
+    "keyword": "Feature",
+    "name": "Login Feature",
+    "line": 1,
+    "id": "login-feature",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login-feature;login-scenario",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user is on the login page",
+            "result": {
+              "status": "passed",
+              "duration": 1681000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "The user enters the username and password",
+            "result": {
+              "status": "passed",
+              "duration": 750000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks on the login button",
+            "result": {
+              "status": "passed",
+              "duration": 3111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "A successfull message is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
