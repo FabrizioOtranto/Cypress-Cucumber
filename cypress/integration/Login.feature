@@ -5,10 +5,9 @@ Feature: Login Feature
 Scenario Outline: login Scenario
     Given The user is on the login page
     When The user enters the "<email>" and "<password>"
-    And the user clicks on the login button
-    Then A successfull message is displayed
+    And The user clicks on the login button
+    Then The user is redirected to home page
 
 Examples:
-| email | password |
-| testing@gmail.com | testing | 
+| email            | password |
 | tester@gmail.com | testing |
